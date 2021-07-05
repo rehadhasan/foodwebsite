@@ -1,0 +1,22 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+section{
+    margin: 0px 50px;
+    background-image: url(images/bg1.jpg);
+}
+.healthy{
+    width: 50%;
+    float: left;
+}
+.healthy h1{
+    font-size: 30px;
+}
+.healthy span{
+    color: tomato;
+}
+.foodimage{
+    width: 50%;
+    float: right;
+}
