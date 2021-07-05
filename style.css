@@ -1,22 +1,135 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
+
 }
-section{
-    margin: 0px 50px;
-    background-image: url(images/bg1.jpg);
+#header{
+    height: 500px;
+    background-image:url(images/bg1.jpg);
+    background-size: cover;
 }
 .healthy{
-    width: 50%;
+    width: 710px;
     float: left;
+    margin-left: 50px;
 }
 .healthy h1{
     font-size: 30px;
 }
 .healthy span{
-    color: tomato;
+    color: rgb(221, 53, 23);
+}
+.healthy p{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.healthy a{
+    text-decoration: none;
+    background:tomato;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 25%;
 }
 .foodimage{
-    width: 50%;
+    width:708px;
     float: right;
+    margin-right: 50px;
+}
+.foodimage img{
+    height: 500px;
+    height:auto;
+    margin-top: 117px;
+}
+#middle{
+    background-image:url(images/Frame\ 59.jpg);
+    background-size: cover;
+    height:500px;
+}
+.myimage{
+    float: left;
+    margin-left: 50px;
+}
+.myimage img{
+    max-width:708px;
+    height: 400px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.about{
+    width: 710px;
+    float: right;
+    margin-right: 50px;
+}
+.about h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    color: #564343;
+}
+.about p {
+    width: 444px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.about a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+#middle2{
+    background-image:url(images/7.png);
+    background-size: cover;
+    height: 500px;
+}
+.person{
+    margin-top: 100px;
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+}
+.personimg{
+    width:400px;
+    float: right;
+    margin-right: 200px;
+}
+.personimg img{
+    margin-top: 100px;
+}
+.person h1 {
+    font-size: 35px;
+}
+.person h3{
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+.person p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.person a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border-radius: 25px;
+}
+.portfolio{
+    text-align: center;
+    height: 150px;
+}
+.portfolio h2{
+    color: blue;
+    font-size: 30px;
+}
+.portfolio a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: blue;
+    color: white;
+    border-radius: 25px;
 }
