@@ -175,7 +175,7 @@ body{
     color: rgb(134, 122, 52);
 }
 .foodimage:first-child{
-    margin-left: 30px;
+    margin-left: 32px;
 }
 .foodimage2 img{
     max-width: 300px;
@@ -213,8 +213,32 @@ body{
     font-size: 40px;
     margin-bottom: 0px;
 }
+.socialfollowers h4{
+    color: rgb(51, 40, 40);
+}
 .socialfollowers {
     float: left;
     text-align: center;
     width: 300px;
+}
+.foodworld h1{
+    padding-top: 35px;
+}
+.foodworld p {
+    color: rgb(190, 173, 173);
+    padding-bottom: 35px;
+}
+section#footer {
+    text-align: center;
+    background-color: black;
+    margin-top: 70px;
+}
+span.food {
+    color: #ff8e1a;
+    font-size: 30px;
+}
+span {
+    color: #705e5ede;
+    font-size: 30px;
+    margin-left: 5px;
 }
