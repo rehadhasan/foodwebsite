@@ -1,7 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
-
 }
 #header{
     height: 500px;
@@ -31,32 +30,45 @@ body{
     color: white;
     margin-left: 25%;
 }
-.foodimage{
-    width:708px;
-    float: right;
-    margin-right: 50px;
+.foodimg{
+    width: 300px;
+    max-height: 500px;
+    padding: 20px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 120px;
+    border-radius: 20px;
+    margin-right: 0px;
+    box-shadow: 10px 10px 30px gray;
 }
-.foodimage img{
+.foodimg img{
     height: 500px;
     height:auto;
     margin-top: 117px;
+    max-width: 300px;
 }
 #middle{
     background-image:url(images/Frame\ 59.jpg);
     background-size: cover;
     height:500px;
 }
-.myimage{
-    float: left;
-    margin-left: 50px;
+.myimage{    
+    width: 300px;   
+    max-height: 370px;    
+    float: left;    
+    margin-top: 60px;  
+    margin-left: 150px;  
+    border-radius: 20px;  
+    margin-right: 0px;   
+    box-shadow: 10px 10px 30px gray;
 }
 .myimage img{
     max-width:708px;
-    height: 400px;
-    margin-top: 100px;
+    height: 350px;
     margin-bottom: 0px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
-
 .about{
     width: 710px;
     float: right;
@@ -86,18 +98,25 @@ body{
     height: 500px;
 }
 .person{
-    margin-top: 100px;
+    margin-top: 40px;
     width: 400px;
     float: left;
-    margin-left: 50px;
+    margin-left: 250px;
 }
 .personimg{
-    width:400px;
+    width: 300px;
     float: right;
     margin-right: 200px;
+    max-height: 500px;
+    margin-top: 70px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px gray;
 }
 .personimg img{
     margin-top: 100px;
+    height: 500px;
+    height:auto;
+    max-width: 300px;
 }
 .person h1 {
     font-size: 35px;
@@ -110,7 +129,6 @@ body{
     font-size: 18px;
     margin-bottom: 40px;
 }
-
 .person a {
     text-decoration: none;
     padding: 10px 20px;
@@ -118,18 +136,63 @@ body{
     color: white;
     border-radius: 25px;
 }
-.portfolio{
+.foodreview{
     text-align: center;
-    height: 150px;
 }
-.portfolio h2{
-    color: blue;
-    font-size: 30px;
+.foodreview h1{
+    
+    font-size: 40px;
+    margin-top:px;
 }
-.portfolio a{
-    text-decoration: none;
-    padding: 10px 20px;
-    background: blue;
-    color: white;
-    border-radius: 25px;
+.foodreview p{
+    width: 550px;
+    text-align: center;
+    margin-left: 450px;
+}
+ .foodimage img{
+    max-width: 300px;
+    margin-top: 0px;
+    text-align: center;
+}
+.foodimage{
+    width: 300px;
+    max-height: 500px;
+    padding: 20px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-right: 0px;
+    box-shadow: 10px 10px 30px gray;
+}
+.foodimage h2{
+    color: rgb(243, 196, 108);
+}
+.foodimage p{
+    color: rgb(134, 122, 52);
+}
+.foodimage:first-child{
+    margin-left: 30px;
+}
+.foodimage2 img{
+    max-width: 300px;
+    margin-top: 0px;
+    text-align: center;
+    height: 228px;
+    border-radius: 20px;
+}
+.foodimage2 h2{
+    color: rgb(243, 196, 108);
+}
+.foodimage2{
+    width: 300px;
+    box-shadow: 10px 10px 30px gray;
+    max-height: 500px;
+    padding: 20px;
+    float: left;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.foodimage2 p{
+    color: rgb(134, 122, 52);
 }
